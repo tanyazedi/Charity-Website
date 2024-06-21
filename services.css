@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+      
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(144, 214, 239);
+    
+}
+
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: lightcyan;
+}
+
+.navbar li a:hover{
+    color: black;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+section{
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+div section{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+}
+
+section h1:hover{
+    color: aquamarine;
+}
+
+section:hover{
+    background-color: lavenderblush;
+}
